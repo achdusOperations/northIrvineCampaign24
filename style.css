@@ -49,7 +49,7 @@
    .page-header .a-delay-200ms:after{
         content:"celebrating";
         color:#fe766c;
-        transform:translateX(-288%);
+        transform:translateX(-199%);
         position:absolute;
    }
 
