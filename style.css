@@ -36,3 +36,67 @@
 h1 *,h2 *, h3 *,.fs-about em, .fs-footer *,.fs-countdown h3 strong,    .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description, .fs-footer .row>div:nth-of-type(1) h3,.fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option span.fs-option-name>*, body .fs-root h3, h4,.fs-goal .fs-goal-text strong, .fs-about-text strong, .fs-header .page-header h1 small, .fs-matchers .fs-matchers-intro strong, .fs-footer, .fs-header .page-header h2, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-about-text h3, .fs-about-text.js-about-text h4, .fs-full-donate-form .fs-donate-header .fs-text h2{
     font-family: "Inria Sans", sans-serif !important;
 }
+    /*buttons */
+    .donate-button .donate-button-text {
+        background:#101d5f !important;
+        border-radius: 25px !important;
+        font-weight: bold !important;
+    
+    } 
+    
+    /*goal section*/
+  .jumbotron.fs-header {
+    border-bottom: 4px solid #FFF !important;
+}
+.fs-goal{
+background:#FFF !important ;
+}
+.col-md-6.text-xs-center.text-md-right.fs-goal-text, .fs-goal .fs-goal-text strong{
+    color:#101d5f !important;
+}
+.fs-goal .fs-goal-text .fs-goal-amount,.fs-goal .fs-goal-graph-container .fs-goal-graph-text span{
+    color:#101d5f !important;
+}
+/*goal meter  filled and then not filled*/
+.fs-goal-graph-fill{
+    background: #fe766c !important;
+}
+.fs-goal-graph{
+    background: #101d5f !important;
+}
+
+/*countdown*/
+.fs-countdown {
+    background:#101d5f;
+    }
+    .fs-countdown-number, .fs-countdown-sep{
+      color:#fff;
+    }
+    /*maximize in countdown*/
+    .fs-countdown h3 strong {
+        color:#fe766c;
+    }
+    .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
+        color:#fff !important;
+    }
+    
+
+    /*section next to countdown*/
+   .fs-donate {
+    background:#fe766c !important
+}
+.fs-countdowndonate .fs-countdown, .fs-countdowndonate .fs-donate{
+    border-radius:25px !important;
+}
+div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > polygon{
+    fill:#fe766c !important;
+}
+
+/*dollar sign*/
+.fs-donate .fs-donate-amounts {
+    color:#fff;
+}
+/*button*/
+.fs-donate .fs-btn, .fs-donate .fs-btn:hover{    
+    border-radius: 25px !important;
+}
