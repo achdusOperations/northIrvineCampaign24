@@ -47,7 +47,7 @@
    }
 
    .page-header .a-delay-200ms:after{
-        content:"celebrate";
+        content:"celebrating";
         color:#fe766c;
         transform:translateX(-288%);
         position:absolute;
