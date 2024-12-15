@@ -36,16 +36,26 @@
    
    .fs-header .page-header h1 small{
     color:#101d5f !important;
+    text-transform: uppercase !important;
    }
    
+   
+   .page-header .a-delay-200ms{
+    text-transform:capitalize !important;
+    color: #101d5f !important;
+   }
+   .page-header .a-delay-200ms:first-child{
+    color:#fe766c !important;
+   }
+
    .fs-header .page-header h2{
-    color:#fed401 !important;
+    color:#101d5f !important;
     margin-top:0px !important;
     font-size:48px !important;
-    text-transform: uppercase !important;
+    text-transform: capitalize !important;
    }
-   .page-header .a-delay-200ms{
-    text-transform: uppercase !important;
+   .fs-header .page-header h2:last-child{
+    color:#fe766c !important
    }
    
 
@@ -258,7 +268,8 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     color:#101d5f !important;
     border-radius:25px !important;
 }
-/*.fs-full-donate-form .fs-donate-body .fs-effective-donation-container .fs-effective-donation-amount-container{
+/*0$*/
+.fs-full-donate-form .fs-donate-body .fs-effective-donation-container .fs-effective-donation-amount-container{
     
     color:#101d5f !important;
 }
