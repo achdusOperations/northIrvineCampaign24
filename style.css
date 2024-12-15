@@ -47,10 +47,10 @@
     font-size:48px !important;
    }
 
-   .page-header .a-delay-200ms:after{
+   .page-header .a-delay-200ms:before{
         content:"celebrating";
         color:#fe766c;
-        transform:translateX(-199%);
+        transform:translateX(0%);
         position:absolute;
    }
 
