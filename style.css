@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/*font-family: "Inria Sans", sans-serif;*/
+
 /*hero image*/
     .fs-header:before {
         background-image: 
@@ -11,3 +15,24 @@
             background-size:100% 100%;
         }
     }
+/*header*/
+    /*donate button*/
+    .fs-header-top .fs-top-tools .fs-btn{
+        background:#101d5f !important;
+        border-radius: 25px !important;
+    }
+    a.a2a_button_facebook, a.a2a_button_twitter, a.a2a_button_email, a.a2a_dd{
+        background:#101d5f !important;
+    }
+        /*remove logo*/
+    .fs-header-top .fs-logo-container{
+        display:none !important;
+    }
+    .fs-header-top{
+        border:none !important;
+    }
+
+    /*fonts title and buttons*/
+h1 *,h2 *, h3 *,.fs-about em, .fs-footer *,.fs-countdown h3 strong,    .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description, .fs-footer .row>div:nth-of-type(1) h3,.fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option span.fs-option-name>*, body .fs-root h3, h4,.fs-goal .fs-goal-text strong, .fs-about-text strong, .fs-header .page-header h1 small, .fs-matchers .fs-matchers-intro strong, .fs-footer, .fs-header .page-header h2, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-about-text h3, .fs-about-text.js-about-text h4, .fs-full-donate-form .fs-donate-header .fs-text h2{
+    font-family: "Inria Sans", sans-serif !important;
+}
