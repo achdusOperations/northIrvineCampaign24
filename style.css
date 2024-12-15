@@ -251,6 +251,12 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
 }
 
 /*donation page*/
+/*top title*/
+.fs-donate-header h2{
+    color:#fe766c !important;
+    font-weight:bold!important;
+}
+
 .fs-full-donate-form .fs-donate-body .fs-donate-section h3{
     color:#fe766c !important;
     font-weight:bold!important;
