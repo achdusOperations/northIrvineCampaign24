@@ -98,7 +98,9 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     color:#fff;
 }
 /*button*/
-a.btn.fs-btn.js-action-open-donate{
+/*button*/
+.fs-donate .fs-btn, .fs-donate .fs-btn:hover{    
+    border-radius: 25px !important;
     background:#FFF !important;
     color:#101d5f !important;
 }
