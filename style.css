@@ -43,21 +43,15 @@
    .page-header .a-delay-200ms{
     text-transform:capitalize !important;
     color: #101d5f !important;
-   }
-   .page-header .a-delay-200ms:first-child{
-    color:#fe766c !important;
+    font-size:48px !important;
    }
 
    .fs-header .page-header h2{
     color:#101d5f !important;
-    margin-top:0px !important;
+    margin-top:-12px !important;
     font-size:48px !important;
     text-transform: capitalize !important;
    }
-   .fs-header .page-header h2:last-child{
-    color:#fe766c !important
-   }
-   
 
 
     /*fonts title and buttons*/
