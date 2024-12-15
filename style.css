@@ -46,6 +46,13 @@
     font-size:48px !important;
    }
 
+   .page-header .a-delay-200ms:after{
+        content:"celebrate";
+        color:#fe766c;
+        transform:translateX(-288%);
+        position:absolute;
+   }
+
    .fs-header .page-header h2{
     color:#101d5f !important;
     margin-top:-12px !important;
