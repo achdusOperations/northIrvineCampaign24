@@ -37,7 +37,7 @@
    .fs-header .page-header h1 small{
     color:#101d5f !important;
     text-transform: uppercase !important;
-    font-size:30px !important
+    font-size:24px !important
    }
    
    
@@ -68,14 +68,15 @@
     transform:translateX(-100%);
     position:absolute;
   }
-  /*@media screen and (max-width: 700px) {
+  @media screen and (max-width: 700px) {
     .fs-header .page-header h1 small{
      font-size:24px !important;
     }
     .fs-header .page-header h2{
-     font-size:40px !important;
-     line-height: 40px !important;
-     padding-top:5px !important;
+     font-size:44px !important;
+    }
+    .page-header .a-delay-200ms{
+        font-size:44px !important;
     }
  }
 
