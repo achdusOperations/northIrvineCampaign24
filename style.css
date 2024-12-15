@@ -70,7 +70,7 @@ background:#FFF !important ;
     background:#101d5f;
     }
     .fs-countdown-number, .fs-countdown-sep{
-      color:#fff;
+      color:#fff !important;
     }
     /*maximize in countdown*/
     .fs-countdown h3 strong {
@@ -79,6 +79,7 @@ background:#FFF !important ;
     .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
         color:#fff !important;
     }
+    
     
 
     /*section next to countdown*/
