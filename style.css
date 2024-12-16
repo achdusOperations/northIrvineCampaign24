@@ -48,10 +48,10 @@
    }
 
    .page-header .a-delay-200ms:before{
-        content:"celebrating";
-        color:#fe766c;
-        transform:translateX(0%);
-        position:absolute;
+        content:"celebrating" !important;
+        color:#fe766c !important;
+        transform:translateX(0%) !important;
+        position:absolute !important;
    }
 
    .fs-header .page-header h2{
@@ -63,10 +63,11 @@
    }
 
    .fs-header .page-header h2:after{
-    content:"future";
-    color:#fe766c;
-    transform:translateX(-100%);
-    position:absolute;
+    content:"future" !important;
+    color:#fe766c !important;
+    transform:translateX(-100%) !important;
+    position:absolute !important;
+    text-transform: capitalize !important;
   }
   @media screen and (max-width: 700px) {
     .fs-header .page-header h1 small{
