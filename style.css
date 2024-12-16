@@ -75,6 +75,9 @@
     }
     .fs-header .page-header h2{
      font-size:36px !important;
+     display:flex !important;
+     margin: auto !important;
+     max-width:280px !important;
     }
     .page-header .a-delay-200ms{
         font-size:36px !important;
@@ -82,6 +85,10 @@
         margin: auto !important;
         max-width:180px !important;
     }
+    .fs-header .page-header h2:after{
+        transform:translate(83%,100%) !important;
+        
+      }
  }
 
     /*fonts title and buttons*/
