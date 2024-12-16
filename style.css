@@ -71,7 +71,7 @@
   }
   @media screen and (max-width: 700px) {
     .fs-header .page-header h1 small{
-     font-size:24px !important;
+     font-size:18px !important;
     }
     .fs-header .page-header h2{
      font-size:36px !important;
