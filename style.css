@@ -225,6 +225,8 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
        /*donors buttons on separate lines. width is 100% divided by amount of matching categories (if more than 4 do 33%)*/
        .fs-matchers .fs-matcher  {
         width:33%;
+        padding-left:0px !important;
+        padding-right:0px !important;
       }
       @media (max-width: 991px){
         .fs-matchers .fs-matcher{
