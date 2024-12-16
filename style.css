@@ -214,16 +214,17 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     }*/
    
     .fs-matchers .fs-matcher .fs-matcher-title{
-        /*font-size: 26px !important;*/
+        font-size: 24px !important;
         color: #101d5f !important;
+        font-weight: bold !important;
     }
-    /*.fs-matchers .fs-matcher .fs-matcher-subtitle{
-        font-size: 1.6em;
-        color: #16396a;
-        font-weight: bold;
+    .fs-matchers .fs-matcher .fs-matcher-subtitle{
+        font-size: 14px !important;
+        color: #16396a !important;
+        font-weight: bold !important;
     }
        /*donors buttons on separate lines. width is 100% divided by amount of matching categories (if more than 4 do 33%)*/
-       /*.fs-matchers .fs-matcher  {
+       .fs-matchers .fs-matcher  {
         width:33%;
       }
       @media (max-width: 991px){
