@@ -78,6 +78,9 @@
     }
     .page-header .a-delay-200ms{
         font-size:36px !important;
+        display:flex !important;
+        margin: auto !important;
+        max-width:180px !important;
     }
  }
 
