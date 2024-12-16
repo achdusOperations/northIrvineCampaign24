@@ -179,6 +179,10 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         color:#fe766c !important;
         font-style:italic !important;
     }
+    .fs-matchers .fs-matchers-intro span:nth-child(2){
+        color:#101d5f !important;
+        font-style: italic !important;
+    }
     /*circle with picture*/
 /*.fs-matchers .fs-matcher .fs-matcher-image .fs-image-wrap-max{
         width:110px !important;
